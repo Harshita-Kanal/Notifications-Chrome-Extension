@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Notification Extension",
+    "version": "1.0",
+    "description": "This is the notification extension",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+   
+    "background" : {
+        "scripts" : ["background.js"]
+      },
+
+    
+    "permissions": ["notifications"],
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "index.html"
+    }
+}
